@@ -8,4 +8,4 @@ def remove(name, path):
             print(li)
             os.rename(root + os.sep + f, root + os.sep + li)
 
-remove('%20','./Sheets/bodyshop_all_images')
+remove('%20','./Sheets/bodyshop_all_images') # (subtring,path)
